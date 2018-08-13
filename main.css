@@ -1,0 +1,740 @@
+
+#formid:focus { border: 2px solid red; }
+#lastname:focus { border: 2px solid red; }
+#firstname:focus { border: 2px solid red; }
+#site:focus { border: 2px solid red; }
+#plantype:focus { border: 2px solid red; }
+#startdate:focus { border: 2px solid red; }
+#mr:focus { border: 2px solid red; }
+
+#checksDiv {
+  font-size: 8pt;
+} 
+
+h1,h2,h3 { padding: 0px;
+           margin: 0px;}
+		   
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 
+
+label {
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-size: 8pt;
+  padding-top: .1em;
+  padding-right: .15em;
+  width: 6em;
+  text-align: right;
+  float: left;
+} 
+
+#headermain
+{
+	;
+}
+
+.gold{
+	background:  gold;
+
+}
+#headerdse
+{
+	height: 75x;
+	margin-bottom: 3px;
+	  background-image: -moz-linear-gradient(top, gold, goldenrod);
+    background-image: -ms-linear-gradient(top, gold, goldenrod);
+    background-image: -webkit-linear-gradient(top, #535357, #3c3c3f);
+    background-image: linear-gradient(top, #535357, #3c3c3f);
+    padding: 5px;
+    -webkit-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+    -moz-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+    box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='gold', endColorstr='goldenrod',GradientType=0 ); 
+}
+#headerevents
+{
+	height: 40px;
+	margin-bottom: 5px;
+	background: url('/exemples/pics/goldheader.png');
+}
+
+#nav
+{font-size: 16pt;
+ color: cornsilk;
+	float: left;
+	margin-left: 1%;
+	width: 20%;
+	background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-size:100% 100%;
+	margin-bottom: 10px;
+}
+
+#reports
+{  font-size: 16pt;
+width: 20%;
+ color: cornsilk;
+	float: left;
+	margin-left: 2%;
+	background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-size:100% 100%;
+	margin-bottom: 10px;
+}
+
+#contentevents
+{
+	background: url('/exemples/pics/backgrounds/tg1.jpg');
+	margin-bottom: 10px;
+}
+#physics
+{  font-size: 16pt;
+	float: left;
+	margin-left: 2%;
+width: 20%;
+ color: cornsilk;
+	background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-size:100% 100%;
+	margin-bottom: 10px;
+}
+
+
+
+
+#calculations
+{font-size: 16pt;
+ color: cornsilk;
+	float: left;
+	width: 20%;
+	margin-left: 10px;
+	background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-size:100% 100%;
+	margin-bottom: 10px;
+}
+
+
+#footer
+{
+	clear: both;
+	margin-bottom: 10px;
+    position:absolute;
+   bottom:0;
+   width:100%;
+}
+ #background { 
+        width: 100%; 
+        height: 100%; 
+        position: fixed; 
+        left: 0px; 
+        top: 0px; 
+        z-index: -99999;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+	
+
+
+.dark1{
+	font-family: Calibri, Arial;
+    color: #CCCCCC;
+	float: left;
+	margin-left: 1%;
+	/*width: 7%;*/
+	margin-bottom: 10px;
+
+  
+        
+}
+
+
+.dark{
+	font-family: Calibri, Arial;
+    color: #CCCCCC;
+	float: left;
+	margin-left: 1%;
+	/*width: 7%;*/
+	margin-bottom: 10px;
+	/*background-image: -moz-linear-gradient(top, #535357, #3c3c3f);
+    background-image: -ms-linear-gradient(top, #535357, #3c3c3f);
+    background-image: -webkit-linear-gradient(top, #535357, #3c3c3f);
+    background-image: linear-gradient(top, #535357, #3c3c3f);*/
+           
+   /* -webkit-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+    -moz-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+    box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#535357', endColorstr='#3c3c3f',GradientType=0 );*/
+}
+.dark25{
+	font-family: Calibri, Arial;
+    color: #000000;
+	float: left;
+	margin-left: 1%;
+	/*width: 7%;*/
+	margin-bottom: 10px;
+	background-image: -moz-linear-gradient(top, #cccccc, #3c3c3f);
+    background-image: -ms-linear-gradient(top, #cccccc, #3c3c3f);
+    background-image: -webkit-linear-gradient(top, #cccccc, #3c3c3f);
+    background-image: linear-gradient(top, #cccccc, #3c3c3f);
+           
+    -webkit-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+    -moz-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+    box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#535357', endColorstr='#3c3c3f',GradientType=0 );
+}
+.happy{
+	font-family: Calibri, Arial;
+    color: #333333;
+	float: left;
+	margin-left: 1%;
+	/*width: 7%;*/
+	margin-bottom: 10px;
+	background-image: -moz-linear-gradient(top, azure, gray);
+    background-image: -ms-linear-gradient(top, azure, gray);
+    background-image: -webkit-linear-gradient(top, azure, gray);
+    background-image: linear-gradient(top, azure, gray);
+           
+    -webkit-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+    -moz-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+    box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='azure', endColorstr='gray',GradientType=0 );
+}
+
+
+
+#optionsDiv
+{
+    /*background: url('/exemples/pics/brushedmetal1.jpg');*/
+	font-family: Calibri, Arial;
+    color: #CCCCCC;
+	float: left;
+	margin-left: 1%;
+	/*width: 7%;*/
+	margin-bottom: 10px;
+	background-image: -moz-linear-gradient(top, #535357, #3c3c3f);
+    background-image: -ms-linear-gradient(top, #535357, #3c3c3f);
+    background-image: -webkit-linear-gradient(top, #535357, #3c3c3f);
+    background-image: linear-gradient(top, #535357, #3c3c3f);
+           
+    -webkit-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+    -moz-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+    box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#535357', endColorstr='#3c3c3f',GradientType=0 );
+	/*border: 1px solid black;*/
+}
+
+
+h1 {
+font-family: Arial;
+font-size: 20pt;
+}
+	
+div {
+   margin:-1px;
+   padding:0px;
+   border:0px;
+}
+
+table.sample {
+	border: 1px;
+	border-spacing: 2px;
+	border-style: groove;
+	border-color: black;
+	border-collapse: collapse;
+	font-family: Calibri, Arial;
+	font-size: 12pt;
+	
+}
+table.sample th {
+ border: 1px solid #333333;
+    text-align: left;
+	padding: 3px;
+	-moz-border-radius: ;
+	border-collapse: collapse;
+}
+table.sample td {
+	border: 1px solid #333333;
+	padding: 4px;
+	-moz-border-radius: ;
+	border-collapse: collapse;
+   
+}
+
+
+
+table.samplex {
+	border-width: 1px;
+	border-spacing: 1px;
+	border-collapse: collapse;
+	font-family: Calibri, Arial;
+	font-size: 10pt;
+	text-align: left;
+	
+}
+table.samplex th {
+    text-align: left;
+	border-width: 1px;
+	padding: 3px;
+	-moz-border-radius: ;
+	border-collapse: collapse;
+		text-align: left;
+}
+table.samplex td {
+	border-width: 1px;
+	padding: 3px;
+	-moz-border-radius: ;
+	border-collapse: collapse;
+		text-align: left;
+}
+		
+
+table.samplex tr {
+	border-width: 1px;
+	padding: 3px;
+	-moz-border-radius: ;
+	border-collapse: collapse;
+		text-align: left;
+}
+		
+ 
+
+table.small {
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: groove;
+	border-color: gray;
+	border-collapse: collapse;
+	font-family: Arial;
+	font-size: 10px;
+	color: cornsilk;
+	background: url("pics/blackboard.png");
+ 
+	
+}
+table.small th {
+   line-height: 13px;
+    text-align: left;
+	border-width: 1px;
+	padding: 3px;
+	border-style: groove;
+	border-color: gray;
+	-moz-border-radius: ;
+	border-collapse: collapse;
+
+}
+table.small td {
+ line-height: 13px;
+	border-width: 1px;
+	padding: 4px;
+	border-style: groove;
+	border-color: gray;
+	-moz-border-radius: ;
+	border-collapse: collapse;
+}
+
+table.sam {
+ line-height: 15px;
+	border-width: 2px;
+	border-spacing: 2px;
+	border-style: groove;
+	border-color: #AAAAFF;
+	border-collapse: collapse;
+        vertical-align:text-bottom;
+        
+}
+table.sam th {
+
+
+    font-size: +18;
+    font-family: 'Calibri';
+	font-weight: normal;
+    text-align: left;
+    vertical-align:text-bottom;
+	border-width: 0px;
+	padding: 2px;
+	border-style: groove;
+	border-color: #333344;
+	-moz-border-radius: ;
+}
+table.sam td {
+    vertical-align:text-bottom;
+	border-width: 1px;
+	padding: 2px;
+	
+	border-color: #333344;
+	-moz-border-radius: ;
+}
+table.sam input {
+      font-size: 16pt;
+	  font-family: 'Calibri';
+
+	  color: black;
+	 
+	 background: #DDDDDD;
+     /* background-color: #444455;  */
+	  vertical-align:text-bottom;
+      width: 400;
+
+}
+table.sam select {
+       font-size: 16pt;
+	  font-family: 'Calibri';
+	  	 background: #DDDDDF; 
+     vertical-align:text-bottom;
+      width: 400;
+}
+
+
+table.sam checkbox {
+	width: 19px;
+	height: 50px;
+	padding: 0 0px 0 0;
+	display: block;
+	clear: left;
+	float: left;
+	color: #F00000;
+}
+
+table.sam textarea {
+      color: #DDDDCC;
+      font-size: +12;
+	  font-family: 'Calibri';
+      background-color: #555566;  
+	  vertical-align:text-bottom;
+      width: 600; height: 50;
+}
+
+.sam select option:nth-child(odd) {background-color: cornsilk;}
+.sam select option:nth-child(even) {background-color: white;}
+
+
+table.sam2 {
+ line-height: 15px;
+	border-width: 2px;
+	border-spacing: 2px;
+	border-style: groove;
+	border-color: #AAAAFF;
+	border-collapse: collapse;
+        vertical-align:text-bottom;
+        
+}
+table.sam2 th {
+
+
+    font-size: +18;
+    font-family: 'Calibri';
+	font-weight: normal;
+    text-align: left;
+    vertical-align:text-bottom;
+	border-width: 3px;
+	padding: 2px;
+	-moz-border-radius: ;
+}
+table.sam2 td {
+    vertical-align:text-bottom;
+	border-width: 1px;
+	padding: 2px;
+	border-style: groove;
+	-moz-border-radius: ;
+}
+table.sam2 input {
+      font-size: +18;
+	  font-family: 'Calibri';
+	  border: 2px;
+	  color: black;
+	 background: url(pics/lcdbg2.png);  
+     /* background-color: #444455;  */
+	  vertical-align:text-bottom;
+      width: 400;
+
+}
+table.sam2 select {
+      font-size: +18;
+	  font-family: 'Calibri';
+	  border: 2px;
+	  	 background: url(pics/lcdbg2.png);  
+     vertical-align:text-bottom;
+      width: 400;
+}
+
+
+table.sam2 checkbox {
+	width: 19px;
+	height: 50px;
+	padding: 0 0px 0 0;
+	display: block;
+	clear: left;
+	float: left;
+	color: #F00000;
+}
+
+table.sam2 textarea {
+      color: #DDDDCC;
+      font-size: +12;
+	  font-family: 'Calibri';
+      background-color: #555566;  
+	  vertical-align:text-bottom;
+      width: 600; height: 50;
+}
+
+.sam2 select option:nth-child(odd) {background-color: cornsilk;}
+.sam2 select option:nth-child(even) {background-color: white;}
+
+table.sample2 {
+	border-width: 0px;
+	border-spacing: 2px;
+	border-style: groove;
+	border-color: black;
+	border-collapse: collapse;
+}
+table.sample2 th {
+    text-align: right;
+	border-width: 0px;
+	padding: 3px;
+	border-style: groove;
+	border-color: none;
+}
+table.sample2 td {
+	border-width: 0px;
+	padding: 4px;
+	border-style: groove;
+	border-color: none;
+	}
+	
+table.sample2 input {
+      border-style: groove;
+	  border-width: 1px;
+      background-color: #444455; 
+	  vertical-align:text-bottom;
+
+}
+
+select optgroup{
+    background:#0066AA;
+    color: cornsilk;
+    font-style:normal;
+    font-weight:normal;
+    }
+
+ 
+
+ 
+ 
+ table.sam7 {
+ line-height: 12px;
+	border-width: 2px;
+	border-spacing: 2px;
+	border-style: groove;
+	border-color: #AAAAFF;
+	border-collapse: collapse;
+        vertical-align:text-bottom;
+        
+}
+table.sam7 th {
+
+
+    font-size: 10pt;
+    font-family: 'Calibri';
+	font-weight: normal;
+    text-align: left;
+    vertical-align:text-bottom;
+	border-width: 0px;
+	padding: 2px;
+	border-style: groove;
+	border-color: #333344;
+	-moz-border-radius: ;
+}
+table.sam7 td {
+    vertical-align:text-bottom;
+	border-width: 1px;
+	padding: 2px;
+	 text-align: left;
+	border-color: #333344;
+	-moz-border-radius: ;
+}
+table.sam7 input {
+      font-size: 16pt;
+	  font-family: 'Calibri';
+
+	  color: gold;
+	 
+	  background: linear-gradient(rgba(50,50,50,0.2),rgba(60,60,60,0.2));
+     /* background-color: #444455;  */
+	  vertical-align:text-bottom;
+      width: 400;
+	   border-radius: 5px;
+	   border-style: solid;
+	   border-width: 2px;
+	   border-color: gray;
+	   margin-bottom: 5px;
+
+}
+table.sam7 select {
+        margin-bottom: 5px;
+        font-size: 16pt;
+	    font-family: 'Calibri';
+	  	color: goldenrod;
+	    background:  linear-gradient(rgba(50,50,50,0.2),rgba(60,60,60,0.2));
+        vertical-align:text-bottom;
+        width: 400;
+	    border-style: solid;
+	    border-width: 2px;
+	    border-color: gray;
+}
+
+
+table.sam7 checkbox {
+	width: 10px;
+	height: 50px;
+	padding: 0 0px 0 0;
+	display: block;
+	clear: left;
+	float: left;
+	color: #F00000;
+}
+
+table.sam7 textarea {
+      color: #DDDDCC;
+      font-size: 10pt;
+	  font-family: 'Calibri';
+      background-color: #555566;  
+	  vertical-align:text-bottom;
+      width: 600; height: 50;
+}
+
+
+
+
+
+table.t1 { margin: 1em auto; border-collapse: collapse; font-family: Arial, Helvetica, sans-serif; } .t1 th, .t1 td { padding: 4px 8px; } .t1 thead th { background: #4f81bd; text-transform: lowercase; text-align: left; font-size: 15px; color: #fff; } .t1 tr { border-right: 1px solid #95b3d7; } .t1 tbody tr { border-bottom: 1px solid #95b3d7; } .t1 tbody tr:nth-child(odd) { background: #dbe5f0; } .t1 tbody th, .t1 tbody tr:nth-child(even) td { border-right: 1px solid #95b3d7; } .t1 tfoot th { background: #4f81bd; text-align: left; font-weight: normal; font-size: 10px; color: #fff; } .t1 tr *:nth-child(3), .t1 tr *:nth-child(4) { text-align: left; }
+
+
+table.samp{
+	border-width: 1px;
+	border-spacing: 2px;
+
+	border-collapse: collapse;
+}
+table.samp th {
+	border-width: 1px;
+	padding-top: .5em;
+    padding-bottom: .5em;
+
+	-moz-border-radius: ;
+}
+table.samp td {
+	 padding-top: .5em;
+    padding-bottom: .5em;
+
+}
+
+
+table.sam24 {
+color: black;
+font-size: 10pt;
+ line-height: 15px;
+	border-width: 2px;
+	border-spacing: 2px;
+	border-style: groove;
+	border-color: #AAAAFF;
+	border-collapse: collapse;
+    vertical-align:text-bottom;
+        
+}
+table.sam24 th {
+    font-size: 10pt;
+    font-family: 'Calibri';
+	font-weight: normal;
+    text-align: left;
+    vertical-align:text-bottom;
+	border-width: 3px;
+	padding: 2px;
+	-moz-border-radius: ;
+}
+table.sam24 td {
+    vertical-align:text-bottom;
+	border-width: 1px;
+	padding: 2px;
+	border-style: groove;
+	-moz-border-radius: ;
+}
+table.sam24 input {
+      font-size: 12;
+	  font-family: 'Calibri';
+	  border: 0px;
+	  color: black;
+	 background: #DDEFEF; 
+     /* background-color: #444455;  */
+	  vertical-align:text-bottom;
+      width: 65;
+
+}
+table.sam24 select {
+      font-size: 12;
+	  font-family: 'Calibri';
+	  border: 0px;
+	  background: azure;
+      vertical-align:text-bottom;
+      width: 65;
+}
+
+
+table.sam24 checkbox {
+	width: 19px;
+	height: 50px;
+	padding: 0 0px 0 0;
+	display: block;
+	clear: left;
+	float: left;
+	color: #F00000;
+}
+
+table.sam24 textarea {
+      color: #DDDDCC;
+      font-size: +12;
+	  font-family: 'Calibri';
+      background-color: #555566;  
+	  vertical-align:text-bottom;
+      width: 600; height: 50;
+}
+
+.sam24 select option:nth-child(odd) {background-color: cornsilk;}
+.sam24 select option:nth-child(even) {background-color: white;}
+
+ 
+#subject optgroup {
+background-image: url(/exemples/pics/gold.png);
+color: #443403;
+font-family: Calibri, Arial;
+font-size: 14pt;
+font-style: normal;
+overflow: hidden;
+}
+
+#subject optgroup option {
+padding-left:22px;
+color: #AAAAAA;
+background-color:#333333;
+}
+
+#subject option:nth-of-type(odd) {
+background-color:#333333;
+color: #AAAAAA;
+}
+
+#subject option:nth-of-type(even) {
+background-color:#444444;
+color: #AAAAAA;
+}
